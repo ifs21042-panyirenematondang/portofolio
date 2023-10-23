@@ -1,0 +1,136 @@
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-percentage {
+  /* background-color: #b6edf7; */
+  color: rgb(0, 0, 0);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.skill-bar {
+  background-color: #f1f1f1;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.skill-progress {
+  height: 100%;
+  text-align: right;
+  padding: 5px;
+  background-color: #b6edf7;
+  color: white;
+  border-radius: 5px;
+}
+
+.pany_about2 {
+  width: 100%;
+  float: left;
+  padding-top: 100px;
+}
+
+.pany_button2 {
+  width: 100%;
+  float: left;
+}
+
+.pany_button2 a {
+  color: #fff;
+  background-color: #130f49;
+  display: inline-block;
+  border: 1.5px solid #130f49;
+  border-radius: 40px;
+  padding: 9px 40px 9px 40px;
+  white-space: nowrap;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.education-item {
+  background-color: #b6edf7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.details {
+  flex: 3;
+  text-align: left;
+}
+
+.institution {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.degree {
+  font-size: 16px;
+  color: #666;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  z-index: 999;
+  opacity: 100;
+  /* Atur opacity ke 0 awalnya */
+  visibility: hidden;
+  /* Sembunyikan tombol secara awal */
+  transition: opacity 0.3s, visibility 0.3s;
+  /* Animasi opacity dan visibility */
+}
+
+.scroll-to-top a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  border-radius: 50%;
+}
+
+.scroll-to-top:hover {
+  background-color: #2d8ff8;
+  border-radius: 0;
+  border-radius: 50%;
+  /* Menghilangkan radius saat dihover */
+  transform: scale(1.2);
+  /* Memperbesar tombol saat dihover */
+}
+
+.arrow {
+  vertical-align: middle;
+}
+
+.size-cover {
+  object-fit: cover;
+}
